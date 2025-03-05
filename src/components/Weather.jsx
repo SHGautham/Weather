@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Weather.css";
-import search_icon from "../assets/search.png";
-import clear_icon from "../assets/clear.png";
-import cloud_icon from "../assets/cloud.png";
-import drizzle_icon from "../assets/drizzle.png";
-import humidity_icon from "../assets/humidity.png";
-import rain_icon from "../assets/rain.png";
-import snow_icon from "../assets/snow.png";
-import wind_icon from "../assets/wind.png";
+import search_icon from "../Assets/search.png";
+import clear_icon from "../Assets/clear.png";
+import cloud_icon from "../Assets/cloud.png";
+import drizzle_icon from "../Assets/drizzle.png";
+import humidity_icon from "../Assets/humidity.png";
+import rain_icon from "../Assets/rain.png";
+import snow_icon from "../Assets/snow.png";
+import wind_icon from "../Assets/wind.png";
 const Weather = () => {
   const inputRef = useRef();
   const [weatherData, setWeatherData] = useState(false);
